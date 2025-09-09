@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1757362122 source:c:\users\howard joshua\desktop\2025_bcs_grp_02\2025_bcs_grp_2\demo project\main.c
+	<stdio.h>
+	"demofunction.h"
+	"demofunctions.c"
+
+1757354843 c:\users\howard joshua\desktop\2025_bcs_grp_02\2025_bcs_grp_2\demo project\demofunction.h
+
+1757353512 c:\users\howard joshua\desktop\2025_bcs_grp_02\2025_bcs_grp_2\demo project\demofunctions.c
+	<stdio.h>
+	"demofunction.h"
+
