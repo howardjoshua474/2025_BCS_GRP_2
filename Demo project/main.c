@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include "demofunction.h"
-#include "demofunctions.c"
 int calculate(int a,char op,int b){
 //attribute definition
     int result;
