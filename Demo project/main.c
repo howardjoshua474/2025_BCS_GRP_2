@@ -1,67 +1,27 @@
 #include <stdio.h>
-int calculate(int a,char op,int b){
-//attribute definition
-    int result;
- switch(op){
-    case '+':
-        result=a+b;
-        ( printf("\n%d %c %d =%d\n",a,op,b,result));
-        break;
-    case '-':
-        result=a-b;
-        ( printf("\n%d %c %d =%d\n",a,op,b,result));
-        break;
-    case '*':
-        result=a*b;
-        ( printf("\n%d %c %d =%d\n",a,op,b,result));
-        break;
-    case '/':
-        if (b==0){ printf("Math Error!!");}
-        else{result =a/b;
-        ( printf("\n%d %c %d =%d\n",a,op,b,result));
-        }
-        break;
-    case '%':
-        if (b==0){ printf("Math Error!!");}
-        else{result= a/b;
-        ( printf("\n%d %c %d =%d\n",a,op,b,result));
-        }
-        break;
-    default :
-        printf("Invalid Operator!\n");
-        return 0;
- }
+#include "demofunction.h"
 
-
-}
-int main(){
-    printf("=====Simple Calculator=====\n");
+int main()
+{
+    printf("===== Simple Calculator =====\n");
     printf("1. Addition (+)\n");
     printf("2. Subtraction (-)\n");
     printf("3. Multiplication (*)\n");
     printf("4. Division (/)\n");
     printf("5. Modulus (%%)\n");
-int x,y;
-int op;
-int result;
+    int num1;
+    int num2;
+    char op;
 
-//prompt user input
-    printf("Enter first number: ");
-    scanf("%d",&x);
-
-    printf("Enter second number: ");
-    scanf("%d",&y);
-
-    printf("Enter operator(+,-,*,/):");
+    printf("\nEnter your first number ");
+    scanf("%d",&num1);
+    printf("Enter your operator(+,-,/,*,%%): ");
     scanf(" %c",&op);
+    printf("Enter your second number ");
+    scanf("%d",&num2);
 
+    int result = calculate_directly(num1,op,num2);
+    printf("Result: %d\n",result);
 
-    result= calculate(x,op,y);
-
-
-return 0;
-
+    return 0;
 }
-
-
-
