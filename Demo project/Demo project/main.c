@@ -3,11 +3,17 @@
 
 int main()
 {
+    printf("===== Simple Calculator =====\n");
+    printf("1. Addition (+)\n");
+    printf("2. Subtraction (-)\n");
+    printf("3. Multiplication (*)\n");
+    printf("4. Division (/)\n");
+    printf("5. Modulus (%%)\n");
     int num1;
     int num2;
     char op;
 
-    printf("Enter your first number ");
+    printf("\nEnter your first number ");
     scanf("%d",&num1);
     printf("Enter your operator(+,-,/,*,%%): ");
     scanf(" %c",&op);
