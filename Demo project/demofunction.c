@@ -11,7 +11,7 @@ return num1 * num2;
 int divide(int num1,int num2){
 return num1 / num2;
 }
-int get_remainder(int num1,int num2){
+int calculate_modulus(int num1,int num2){
 return num1 % num2;
 }
 
@@ -26,7 +26,7 @@ int calculate_directly(int num1,char op,int num2){
  case'/':
     return divide(num1,num2);
  case'%':
-    return get_remainder(num1,num2);
+    return calculate_modulus(num1,num2);
  default:
     return 0;
 }
