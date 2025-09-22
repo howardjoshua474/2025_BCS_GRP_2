@@ -13,8 +13,10 @@ int main()
     int num2;
     int num3;
     char op;
-    int i;
-    for(i=0;i<3;i++){
+    //int i;
+    int repeat = 1;
+    //for(i=0;i<3;i++)
+    while(repeat == 1){
         printf("\nEnter your first number: ");
         scanf("%d",&num1);
         printf("Enter your operator(+,-,/,*,%%): ");
@@ -26,11 +28,14 @@ int main()
         printf("Result: %d\n",result);
         printf("Enter your operator(+,-,/,*,%%): ");
         scanf(" %c",&op);
-        printf("Enter third number:");
+        printf("Enter third number: ");
         scanf("%d",&num3);
         int newresult= use_result(result,op,num3);
-        printf("Result=%d",newresult);
+        printf("Result = %d",newresult);
         printf("\n");
+
+        printf("Do you want to exit (enter: 0) and to continue (enter: 1): ");
+        scanf("%d",&repeat);
         }
 
     return 0;

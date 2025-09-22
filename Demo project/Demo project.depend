@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1743445502 source:d:\desktop\2025_bcs_grp_2\demo project\main.c
+1758540262 source:d:\desktop\2025_bcs_grp_2\demo project\main.c
 	<stdio.h>
-	<stdlib.h>
-
-1757776743 source:d:\desktop\2025_bcs_grp_2\demo project\demofunction.c
 	"demofunction.h"
 
-1757776386 d:\desktop\2025_bcs_grp_2\demo project\demofunction.h
+1758538821 source:d:\desktop\2025_bcs_grp_2\demo project\demofunction.c
+	"demofunction.h"
+
+1758538821 d:\desktop\2025_bcs_grp_2\demo project\demofunction.h
 
 1757781685 source:d:\desktop\2025_bcs_grp_2\demo project\demo project\demofunction.c
 	"demofunction.h"
