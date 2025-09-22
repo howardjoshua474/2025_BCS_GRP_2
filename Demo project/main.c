@@ -34,7 +34,7 @@ int main()
         printf("Result = %d",newresult);
         printf("\n");
 
-        printf("Do you want to exit (enter: 0) and to continue (enter: 1): ");
+        printf("If you want to exit (enter: 0) and to continue (enter: 1): ");
         scanf("%d",&repeat);
         }
 
