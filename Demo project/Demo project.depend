@@ -1,6 +1,8 @@
 # depslib dependency file v1.0
-1758540262 source:d:\desktop\2025_bcs_grp_2\demo project\main.c
+1758569250 source:d:\desktop\2025_bcs_grp_2\demo project\main.c
 	<stdio.h>
+	<string.h>
+	<ctype.h>
 	"demofunction.h"
 
 1758538821 source:d:\desktop\2025_bcs_grp_2\demo project\demofunction.c
