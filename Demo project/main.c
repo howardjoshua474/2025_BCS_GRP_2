@@ -25,9 +25,12 @@ int main()
     int num2;
     int num3;
     char op;
+    int numop;
+    printf("Enter number of operators:");
+    scanf("%d",&numop);
     //int i;
-    int repeat = 1;
     //for(i=0;i<3;i++)
+    int repeat = 1;
     while(repeat == 1){
         printf("\nEnter your first number: ");
         scanf("%d",&num1);
@@ -35,10 +38,12 @@ int main()
         scanf(" %c",&op);
         printf("Enter your second number: ");
         scanf("%d",&num2);
-
         int result = calculate_directly(num1,op,num2);
         printf("Result: %d\n",result);
-        printf("Enter your operator(+,-,/,*,%%): ");
+        if(numop==1){
+                break;
+        }
+        printf("Enter second operator(+,-,/,*,%%): ");
         scanf(" %c",&op);
         printf("Enter third number: ");
         scanf("%d",&num3);
