@@ -1,10 +1,10 @@
-#ifndef DEMOFUNCTION_H_INCLUDED
-#define DEMOFUNCTION_H_INCLUDED
-int add(int num1,int num2);
-int subtract(int num1,int num2);
-int multiply(int num1,int num2);
-int divide(int num1,int num2);
-int get_remainder(int num1,int num2);
-int calculate_directly(int num1,char op,int num2);
-int calculate_expression(char *expression);
-#endif // DEMOFUNCTION_H_INCLUDED
+#ifndef FUNCTIONS_H_INCLUDED
+#define FUNCTIONS_H_INCLUDED
+
+float add(float a,float b);
+float subtract(float a,float b);
+float multiply(float a,float b);
+float divide(float a,float b);
+float modulus(float a,float b);
+
+#endif // FUNCTIONS_H_INCLUDED

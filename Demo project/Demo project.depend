@@ -39,3 +39,16 @@
 	<stdio.h>
 	"demofunction.h"
 
+1761547263 source:c:\users\howard joshua\desktop\grp 2 calc\2025_bcs_grp_2\demo project\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"demofunction.h"
+
+1761547185 c:\users\howard joshua\desktop\grp 2 calc\2025_bcs_grp_2\demo project\demofunction.h
+
+1761547263 source:c:\users\howard joshua\desktop\grp 2 calc\2025_bcs_grp_2\demo project\demofunction.c
+	"demofunction.h"
+	<stdio.h>
+	<math.h>
+
